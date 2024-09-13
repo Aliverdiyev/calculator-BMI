@@ -11,16 +11,15 @@ public class Main {
             switch (sc.nextInt()) {
                 case 1:
                     bmiV1();
-                    valid = false;
                     break;
                 case 2:
                     bmiV2();
-                    valid = false;
                     break;
                 default:
                     System.out.println("Invalid input");
+                    valid = false;
             }
-        } while (valid);
+        } while (!valid);
     }
 
     // Weight (kg) / Height (m)^2
