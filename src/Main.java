@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Enter your weight in kilogram:");
         double weightKg = input.nextInt();
 
-        System.out.println("Enter your weight in metre:");
+        System.out.println("Enter your height in metre:");
         double height = input.nextDouble();
 
         double bmi = weightKg / Math.pow(height, 2);
